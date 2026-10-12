@@ -28,4 +28,10 @@ def calculator():
     print("Result:", result)
 
 
+
+# Floor Division - Cescil (Member 5)
+def floor_divide(a, b):
+    return a // b if b != 0 else "Error: Cannot divide by zero!"
+
+
 calculator()
