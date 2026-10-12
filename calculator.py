@@ -1,3 +1,4 @@
+# Merge Conflict Practice - Cescil
 def calculator():
     print("=== Simple Calculator ===")
     print("1. Addition (+)")
