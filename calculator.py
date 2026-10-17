@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+def modulus(a, b):
+    return a % b
+
+def multiply(a, b):
+    return a * b
+
+>>>>>>> 20657335e3b45282e349b203112bb63434c9fcd1
 
 def calculator():
     print("=== Simple Calculator ===")
