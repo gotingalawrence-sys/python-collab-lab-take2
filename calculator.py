@@ -1,3 +1,7 @@
+def multiply(a, b):
+    return a * b
+
+
 def calculator():
     print("=== Simple Calculator ===")
     print("1. Addition (+)")
@@ -15,7 +19,7 @@ def calculator():
     elif choice == "2":
         result = num1 - num2
     elif choice == "3":
-        result = num1 * num2
+        result = multiply(num1, num2)
     elif choice == "4":
         if num2 == 0:
             print("Error: Cannot divide by zero!")
@@ -26,6 +30,16 @@ def calculator():
         return
 
     print("Result:", result)
+
+
+# Floor Division - Cescil (Member 5)
+def floor_divide(a, b):
+    return a // b if b != 0 else "Error: Cannot divide by zero!"
+
+
+# Average - Claire (Member 6)
+def average(a, b):
+    return (a + b) / 2
 
 
 calculator()
